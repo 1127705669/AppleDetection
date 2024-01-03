@@ -29,8 +29,6 @@ with open(file_path, mode='r', encoding='utf-8') as file:
 corret_num = 0
 total_num = len(data)
 
-print(total_num)
-
 for image_name, apple_count in data.items():
 
     image_path = 'counting/images/' + image_name
